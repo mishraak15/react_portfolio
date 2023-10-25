@@ -1,0 +1,140 @@
+#home {
+  height: 91vh;
+  padding: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  height: 50px;
+  overflow: hidden;
+}
+
+.title-wrapper {
+  height: 100%;
+  animation: trans-y 9s ease-in-out infinite alternate;
+}
+
+.title-item {
+  height: 50px;
+  font-size: 30px;
+  color: var(--purple-l);
+}
+
+@keyframes trans-y {
+  25% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  75% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
+}
+
+.dev {
+  align-items: flex-start;
+  font-size: 5em;
+  font-weight: bold;
+  color: var(--grey-l);
+  font-family: "Roboto", sans-serif;
+}
+
+.pre-name {
+  font-size: 29px;
+}
+
+.name {
+  color: limegreen;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.home-left {
+  align-items: flex-start;
+  width: 50%;
+}
+
+.my-desc {
+  font-size: 18px;
+  width: 80%;
+}
+
+.home-wrapper {
+  justify-content: space-evenly;
+}
+
+.home-right {
+  position: relative;
+  height: 100%;
+  width: 40%;
+}
+
+.image-wrapper {
+  -webkit-clip-path: polygon(
+    100% 0%,
+    75% 50%,
+    100% 100%,
+    30% 100%,
+    0% 50%,
+    30% 0
+  );
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 30% 100%, 0% 50%, 30% 0);
+  background: linear-gradient(to right, rgb(49, 252, 49), rgb(3, 131, 3));
+  position: relative;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.myimageinred {
+  height: 70vh;
+  width: 450px;
+  border-radius: 12px;
+  position: relative;
+  top: 30px;
+  filter: sepia(100%);
+}
+
+.myimageinred:hover {
+  filter: sepia(50%);
+}
+
+
+@media screen and (min-width: 300px )and (max-width:450px){
+
+.dev{
+    margin: 1em 0;
+    font-size: 2em;
+}
+
+.home-right{
+  display: none;
+}
+
+.home-left{
+  width: 100%;
+  margin: 0 1em;
+}
+
+.my-desc{
+  width: 100%;
+}
+
+#home{
+  height: fit-content;
+}
+
+.name{
+  font-size: 3em;
+}
+
+.my-desc{
+  margin: 1em 0;
+}
+
+}

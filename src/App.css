@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Be+Vietnam+Pro:wght@500&family=Open+Sans&family=Philosopher&family=Poppins:wght@500&family=Roboto&display=swap');
+
+/* 
+font-family: 'Balsamiq Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+Purple--> #4c0bce ,#673de6
+Lightest Blue--> #2f1c6a
+Yellow--> #FFEA00
+Orange-->#ff5c35
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  --purple-d: #4c0bce;
+  --purple-l: #673de6;
+  --yellow-l: #f7e740;
+  --yellow-d: #e7d400;
+  --orange-l: #e6522d;
+  --orange-d: #e63205;
+  --grey-d: #575757;
+  --grey-l: #858585;
+  font-family: "Open Sans", sans-serif;
+}
+
+.flex-r {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.flex-c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}

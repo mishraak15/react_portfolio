@@ -1,0 +1,13 @@
+.horizontalBar{
+    background-color:var(--grey-d);
+    height: 2px;
+    width: 95%;
+    margin: 2em auto;
+}
+
+@media screen and (min-width: 300px )and (max-width:450px){
+    .horizontalBar{
+        margin-top: 1em;
+        margin-bottom: 0;
+    }
+}

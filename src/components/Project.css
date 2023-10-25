@@ -1,0 +1,163 @@
+#projects{
+    padding: 5px;
+}
+
+.project_slide_show{
+    display: flex;
+    overflow: hidden;
+    gap: 2vw;
+    width: 58vw;
+    margin: auto;
+    border-radius: 6px;
+}
+
+.project{
+    animation: trans-x 23s infinite;
+    animation-timing-function:step-start;
+}
+
+.project img{
+    height: 350px;
+    width: 58vw;
+}
+
+.project h4{
+text-align: center;
+font-size: 30px;
+color: var(--grey-l);
+margin: 6px 0;
+}
+
+.project a{
+    text-decoration: none;
+}
+
+.project a h4:hover{
+    color: var(--purple-d);
+    text-decoration: underline;
+}
+
+.project p{
+    text-align: center;
+   font-size: 17px;
+   font-family: 'Roboto', sans-serif;
+   width: 60%;
+   margin: auto;
+}
+
+.project p span{
+    color: var(--orange-d);
+}
+
+@keyframes trans-x {
+    11%{
+        transform: translateX(0);
+    }
+
+    22%{
+        transform: translateX(-60vw);
+    }
+    
+    33%{
+        transform: translateX(-120vw);
+    }
+    
+    44%{
+        transform: translateX(-180vw);
+    }
+    
+    55%{
+        transform: translateX(-240vw);
+    }
+    
+    66%{
+        transform: translateX(-300vw);
+    }
+    
+    77%{
+        transform: translateX(-360vw);
+    }
+    
+    88%{
+        transform: translateX(-420vw);
+    }
+    
+    99%{
+        transform: translateX(-480vw);
+    }
+    
+}
+
+@media screen and (min-width: 300px )and (max-width:450px){
+    .project img{
+        height: 180px;
+        width: 90vw;
+    }
+
+    .project p{
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+        width: 100%;
+    }
+
+    .project a h4{
+        font-size: 1.5em;
+        margin-top: 1em ;
+    }
+
+    .project_slide_show{
+        width: 90vw;
+        gap: 10vw;
+        align-items: center;
+        margin: auto;
+    }
+
+    .project{
+        animation: trans-x-changed 20s infinite;
+        animation-timing-function:step-start;
+    }
+
+    @keyframes trans-x-changed {
+        11%{
+            transform: translateX(0);
+        }
+    
+        22%{
+            transform: translateX(-100vw);
+        }
+        
+        33%{
+            transform: translateX(-200vw);
+        }
+        
+        44%{
+            transform: translateX(-300vw);
+        }
+        
+        55%{
+            transform: translateX(-400vw);
+        }
+        
+        66%{
+            transform: translateX(-500vw);
+        }
+
+        77%{
+            transform: translateX(-600vw);
+        }
+
+        88%{
+            transform: translateX(-700vw);
+        }
+
+        99%{
+            transform: translateX(-800vw);
+        }
+        
+    }
+
+    .project h4{
+        text-decoration: underline;
+    }
+}

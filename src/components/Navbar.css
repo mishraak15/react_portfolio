@@ -1,0 +1,109 @@
+.navbar {
+  padding: 10px 0;
+  height: 60px;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+  list-style-type: none;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.box-s {
+    box-shadow: 1px 2px 5px var(--grey-l);
+}
+
+.box-no-s {
+    box-shadow: 0;
+}
+
+.color-b {
+    color: black;
+}
+
+.color-w {
+    color: white;
+    text-decoration: none;
+}
+
+.left {
+    text-decoration: none;
+}
+
+.left img {
+    width: 35px;
+}
+
+.mid {
+    gap: 1.5em;
+}
+
+.left span {
+    font-size: 1.3em;
+}
+
+.nav-item {
+  margin: 0 5px;
+  font-size: 17px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-item:hover,
+.left:hover,
+.nav-icon:hover {
+  color: var(--grey-l);
+  transition: all 0.2s;
+}
+
+.nav-icons {
+  gap: 0.6em;
+}
+
+.light-dark-mode {
+  margin: 0 5px;
+  width: 70px;
+  height: 30px;
+  border: 1px solid grey;
+  border-radius: 14px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* .trans{
+    transform: translateX(50px);
+    transition: all 2s linear;
+} */
+
+.mode-icon {
+  margin: 0 5px;
+}
+
+.color-y {
+  color: var(--yellow-l);
+}
+
+@media screen and (min-width: 300px) and (max-width: 450px) {
+  .left img {
+    width: 25px;
+    margin-left:0.7em;
+  }
+
+  .left span {
+    display: none;
+  }
+
+  .nav-icons {
+    display: none;
+  }
+  .navbar {
+    height: 70px;
+  }
+
+  .nav-item{
+    font-size: 16px;
+  }
+}

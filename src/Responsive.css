@@ -1,0 +1,31 @@
+@media screen and (min-width: 300px )and (max-width:450px) {
+    .myimageinred{
+        display: none;
+    }
+
+    .dev{
+        margin: 1em 0;
+        font-size: 2em;
+    }
+
+    .about-heading{
+        font-size: 2em;
+    }
+
+    .project p{
+        width: 100%;
+        font-family: sans-serif;
+    }
+
+    .project img{
+        height: 140px;
+    }
+
+    .contact-container{
+        flex-direction: column;
+        gap:2em;
+    }
+    .contact-left .flex-c{
+        width: 100%;
+    }
+}
