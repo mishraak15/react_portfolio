@@ -20,13 +20,13 @@ export default function Footer() {
         Copyright © @akashmishra15703
       </div>
       <div className="flex-r">
-      <NavLink to="#" className="footer-link">
+      <NavLink to="https://www.facebook.com/profile.php?id=100035353590496" className="footer-link">
         <BsFacebook fontSize="1.7em"/>
       </NavLink>
       <NavLink to="https://www.instagram.com/akash_mishra_1507/" className="footer-link">
         <AiFillInstagram fontSize="1.7em"/>
       </NavLink>
-      <NavLink to="#" className="footer-link">
+      <NavLink to="https://twitter.com/Jeevni15" className="footer-link">
         <RiTwitterXFill fontSize="1.7em"/>
       </NavLink>
       </div>
