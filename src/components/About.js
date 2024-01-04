@@ -11,6 +11,8 @@ import qualification_data from "../assets/qualification_data";
 import Card from "./Card";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { NavLink } from "react-router-dom";
+import Resume from "../assets/Resume(Akash Mishra).pdf";
 
 export default function About({ mode }) {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
@@ -96,6 +98,7 @@ export default function About({ mode }) {
           ))}
         </div>
       </div>
+      <NavLink className="download-resume-link submit-btn" target="_blank" to={Resume} download="Resume(Akash Mishra)" style={{width:"fit-content"}}>Download Resume</NavLink>
     </div>
   );
 }
