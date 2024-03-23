@@ -7,6 +7,12 @@ import Css from "../assets/icon-css.svg";
 import Javascript from "../assets/clipart1474351.png";
 import ReactImg from "../assets/react.png";
 import Bootstrap from "../assets/bootstrap-logo-shadow.png";
+import Node from "../assets/nodejs-logo.png";
+import Express from "../assets/express-logo.png";
+import Mongo from "../assets/mongo_DB-logo-removebg-preview.png";
+import Git from "../assets/github-logo.png";
+import Mysql from "../assets/mysql-logo.png";
+import Cpp from "../assets/cpp-logo.png";
 import qualification_data from "../assets/qualification_data";
 import Card from "./Card";
 import AOS from "aos";
@@ -59,6 +65,11 @@ export default function About({ mode }) {
           easing="linear"
         >
           <div className="skill-crousel">
+            <img src={Cpp} alt="" />
+            <div className="skill-heading">C++</div>
+            <p className="skill-desc">5 Star HackerRank, 1000 Points in LeetCode, 350+ questions across plateforms</p>
+          </div>
+          <div className="skill-crousel">
             <img src={Html} alt="" />
             <div className="skill-heading">HTML</div>
             <p className="skill-desc">50+ Projects using Html</p>
@@ -81,6 +92,33 @@ export default function About({ mode }) {
             <p className="skill-desc">10+ MultiPage Projects using React</p>
           </div>
           <div className="skill-crousel">
+            <img src={Node} alt="" />
+            <div className="skill-heading">NodeJS</div>
+            <p className="skill-desc">10+ Projects using NodeJS as Backend</p>
+          </div>
+          <div className="skill-crousel">
+            <img src={Express} alt="" />
+            <div className="skill-heading">ExpressJS</div>
+            <p className="skill-desc">10+ Projects using Express for creating server</p>
+          </div>
+          <div className="skill-crousel">
+            <img src={Mongo} alt="" />
+            <div className="skill-heading">MongoDB</div>
+            <p className="skill-desc">5+ Project and indepth knowledge of Mongo Atlas and Compass</p>
+          </div>
+          <div className="skill-crousel">
+            <img src={Mysql} alt="" />
+            <div className="skill-heading">MySQL</div>
+            <p className="skill-desc">Indepth knowledge of Structured Query Language</p>
+          </div>
+          <div className="skill-crousel">
+            <img src={Git} alt="" style={{width:"24rem"}}/>
+            <div className="skill-heading">Git & Github</div>
+            <p className="skill-desc">
+              Indepth Knowledge of all the commands related to git and github repository.
+            </p>
+          </div>
+          <div className="skill-crousel">
             <img src={Bootstrap} alt="" />
             <div className="skill-heading">Bootstrap</div>
             <p className="skill-desc">
@@ -98,7 +136,15 @@ export default function About({ mode }) {
           ))}
         </div>
       </div>
-      <NavLink className="download-resume-link submit-btn" target="_blank" to={Resume} download="Resume(Akash Mishra)" style={{width:"fit-content"}}>Download Resume</NavLink>
+      <NavLink
+        className="download-resume-link submit-btn"
+        target="_blank"
+        to={Resume}
+        download="Resume(Akash Mishra)"
+        style={{ width: "fit-content" }}
+      >
+        Download Resume
+      </NavLink>
     </div>
   );
 }

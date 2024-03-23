@@ -3,11 +3,11 @@ import '../components/Project.css';
 import codingNinjas from '../assets/Coding_ninjas_clone.png';
 import myntraClone from '../assets/myntra_clone.png';
 import weatherApp from '../assets/Weather_App.png';
-import bootstrapClone from '../assets/bootstrap-clone.png';
-import worldClock from '../assets/World_Clock (1).png';
-import spotifyClone from '../assets/Spotify_Clone.png';
-import tictactoe from '../assets/tic_tac_toe (1).png';
 import gotIt from '../assets/Gotit_Online_Recruiter.png';
+import taskmanager from '../assets/taskmanager.png';
+import romiFinance from '../assets/romiFinance.png';
+import trueHomes from '../assets/truehomes.png';
+import wanderlust from '../assets/wanderlust.png';
 import papaZon from '../assets/PapaZon_E_Commerce.png';
 import { NavLink } from 'react-router-dom';
 import AOS from "aos";
@@ -45,9 +45,9 @@ export default function Project() {
         </div>
 
         <div className='project'>
-        <img src={spotifyClone} alt="" />
-         <NavLink target='_blank' to="https://mishraak15.github.io/Spotify_Clone/"> <h4>Spotify Clone</h4></NavLink>
-         <p>A fully responsive Music Player similar to Spotify that plays the song already present in database. You can pause/play and can change the time stamp using <span>Javascript</span></p>
+        <img src={trueHomes} alt="" />
+         <NavLink target='_blank' to="https://truehomes-real-estate.netlify.app/"> <h4>TrueHomes: Real-estate Site</h4></NavLink>
+         <p>A frontend project on real-estate site where you can select your favorite location according to your budget using <span>ReactJS</span></p>
         </div>
 
         <div className='project'>
@@ -57,15 +57,15 @@ export default function Project() {
         </div>
 
         <div className='project'>
-        <img src={tictactoe} alt="" />
-         <NavLink target='_blank' to="https://mishraak15.github.io/Tic-Tac-Toe/"> <h4>Tic-Tac-Toe</h4></NavLink>
-         <p> A tic-tac-toe game with animation and music in which two player can play on the same PC using <span> CSS</span> & <span>Javascript</span></p>
+        <img src={wanderlust} alt="" />
+         <NavLink target='_blank' to="https://wanderlust-g95s.onrender.com/"> <h4>WanderLust: Room Booking Site</h4></NavLink>
+         <p> A fully responsive room booking site where you can add locations, edit them, review them and can delete them. It also include seperate User Section where you can change password and can edit your profile using <span>Express</span> & <span>MongoDB</span></p>
         </div>
         
         <div className='project'>
-        <img src={bootstrapClone} alt="" />
-         <NavLink target='_blank' to="https://mishraak15.github.io/Bootystrap_Clone/"> <h4>Bootstrap Clone</h4></NavLink>
-         <p>Exact Frontend Clone of Bootstrap with same color combination and all other features using <span>HTML</span> & <span>CSS</span></p>
+        <img src={taskmanager} alt="" />
+         <NavLink target='_blank' to="https://akashmishra-taskmanager.netlify.app/"> <h4>TaskManager</h4></NavLink>
+         <p>Here you can add your daily tasks, edit them using and can delete them on completion using <span>ReactJS</span> & <span>LocalStorage</span></p>
         </div>
         
         <div className='project'>
@@ -75,9 +75,9 @@ export default function Project() {
         </div>
 
         <div className='project'>
-        <img src={worldClock} alt="" />
-         <NavLink target='_blank' to="https://mishraak15.github.io/World_Clock_with_Alarm/"> <h4>World Clock with Alarm</h4></NavLink>
-         <p>A fully resposive webpage that shows a complete data of any country that you search. Data consits of capital, flag, continent & current time in that place. You can also set an alarm also using <span>HTML</span>, <span>JS</span> & <span> Fetch API </span></p>
+        <img src={romiFinance} alt="" />
+         <NavLink target='_blank' to="https://dashing-lolly-cdd224.netlify.app/"> <h4>RomiFinance: A Fianance Company</h4></NavLink>
+         <p>A finance company where you get the data of different crypto-currency and you can access them on need using <span>CSS</span>, <span>ReactJS</span> & <span> Fetch API </span></p>
         </div>
 
       </div>
