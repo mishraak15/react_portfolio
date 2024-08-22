@@ -88,8 +88,8 @@ export default function About({ mode }) {
           </div>
           <div className="skill-crousel">
             <img src={ReactImg} alt="" />
-            <div className="skill-heading">React</div>
-            <p className="skill-desc">10+ MultiPage Projects using React</p>
+            <div className="skill-heading">React JS</div>
+            <p className="skill-desc">10+ MultiPage Projects using React JS</p>
           </div>
           <div className="skill-crousel">
             <img src={Node} alt="" />

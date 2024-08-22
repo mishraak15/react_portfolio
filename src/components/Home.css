@@ -104,37 +104,55 @@
   filter: sepia(50%);
 }
 
-
-@media screen and (min-width: 300px )and (max-width:450px){
-
-.dev{
-    margin: 1em 0;
+@media screen and (min-width: 300px) and (max-width: 450px) {
+  .dev {
     font-size: 2em;
-}
+  }
 
-.home-right{
-  display: none;
-}
+  .home-left {
+    width: 100%;
+    margin: 0 1em;
+  }
 
-.home-left{
-  width: 100%;
-  margin: 0 1em;
-}
+  .my-desc {
+    width: 100%;
+  }
 
-.my-desc{
-  width: 100%;
-}
+  #home {
+    height: fit-content;
+  }
 
-#home{
-  height: fit-content;
-}
+  .name {
+    font-size: 3em;
+  }
 
-.name{
-  font-size: 3em;
-}
+  .my-desc {
+    margin: 1em 0;
+  }
 
-.my-desc{
-  margin: 1em 0;
-}
+  .home-wrapper {
+    flex-direction: column-reverse;
+  }
 
+  .image-wrapper {
+    background: none;
+    clip-path: none;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-right {
+    width: 100%;
+    position: static;
+  }
+
+  .myimageinred {
+    height: 180px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: static;
+  }
 }
